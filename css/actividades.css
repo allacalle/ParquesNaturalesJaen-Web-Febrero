@@ -1,0 +1,58 @@
+    /* Estilos para el menú de actividades */
+    .menu-actividades {
+        display: flex;
+        justify-content: center;
+        background-color: #f8f9fa;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #ddd;
+    }
+
+    .menu-actividades button {
+        background-color: transparent;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .menu-actividades button:hover {
+        background-color: #e9ecef;
+    }
+
+    .menu-actividades button.active {
+        background-color: #007bff;
+        color: white;
+    }
+
+    /* Estilos para las secciones de actividades */
+    .seccion-actividad {
+        display: none;
+        padding: 20px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .seccion-actividad.active {
+        display: block;
+    }
+
+    .seccion-actividad img {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .seccion-actividad h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .seccion-actividad p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
