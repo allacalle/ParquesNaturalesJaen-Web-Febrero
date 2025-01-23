@@ -1,0 +1,113 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parques Naturales de Jaén</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/parquesSyle.css">
+    <script src="/js/templates.js"></script>
+    <script src="/js/carousel.js"></script>
+</head>
+<body>
+    <!-- Hero Section -->
+  <!-- Hero Section -->
+  <header class="hero-parques">
+    <div class="hero-content">
+        <h1>Visita con nosotros los parques naturales de Jaén</h1>
+        <p>Descubre la belleza y diversidad de nuestros parques naturales</p>
+    </div>
+    <div class="hero-image">
+        <img src="/images/HeaderParques.png" alt="Paisaje de Jaén con olivos al atardecer">
+    </div>
+</header>
+    <!-- Barra de Navegación -->
+    <div id="nav-container"></div>
+    <script>Menu();</script>
+
+    <main>
+        <h1 class="center">Parques Naturales de Jaén</h1>
+        <div id="mapa_parques">
+            <object data="/images/ParquesNaturalesJaenMapaGrandeConAreas.svg" type="image/svg+xml" width="100%" height="auto" style="max-height: 100vh;">
+            Tu navegador no soporta SVG.
+            </object>
+        </div>
+        
+
+        <div class="carousel-container center">
+            <h2>Disfruta de los hermosos paisajes </h2>
+            <button class="carousel-btn prev" aria-label="Mover izquierda">&#8249;</button>
+            <div class="carousel">
+                <a href="SierraDeAndujar.html" class="carousel-item">
+                    <img src="/images/Parques/SierraDeAndujar/SierraAndujarVistaAerea.jpg" alt="Sierra de Andújar">
+                    <p>Sierra de Andújar</p>
+                </a>
+                <a href="Despenaperros.html" class="carousel-item">
+                    <img src="/images/Parques/Despeñaperros/DespenaperrosPaisaje1.jpg" alt="Despeñaperros">
+                    <p>Despeñaperros</p>
+                </a>
+                <a href="LosOrganos.html" class="carousel-item">
+                    <img src="/images/Parques/LosOrganos/LosOrganos2.jpg" alt="Los Órganos">
+                    <p>Los Órganos</p>
+                </a>
+                <a href="CascadaDeLaCimbarra.html" class="carousel-item">
+                    <img src="/images/Parques/CascadaDeLaCimbarra/CascadaCimbarraPrimerPlano.jpg" alt="Cascada de la Cimbarra">
+                    <p>Cascada de la Cimbarra</p>
+                </a>
+                <a href="ElPielago.html" class="carousel-item">
+                    <img src="/images/Parques/ElPielago/ElPielagoLejos.jpg" alt="El Piélago">
+                    <p>El Piélago</p>
+                </a>
+                <a href="HuellaDinosaurios.html" class="carousel-item">
+                    <img src="/images/Parques/HuellaDeDinosaurios/ParqueSanSebastianDelPuerto.jpeg" alt="Huella de Dinosaurios">
+                    <p>Huella de Dinosaurios</p>
+                </a>
+                <a href="LagunaGrande.html" class="carousel-item">
+                    <img src="/images/Parques/LagunaGrande/LagunaGrandePanoramicoJPG.JPG" alt="Laguna Grande">
+                    <p>Laguna Grande</p>
+                </a>
+                <a href="AltoGuadalquivir.html" class="carousel-item">
+                    <img src="/images/Parques/AltoGuadalquivir/AltoGuadalquivirCerca.jpg" alt="Alto Guadalquivir">
+                    <p>Alto Guadalquivir</p>
+                </a>
+                <a href="SierraCazorla.html" class="carousel-item">
+                    <img src="/images/Parques/SierraDeCazorla/SierraCazorlaPanoramica.jpg" alt="Sierra de Cazorla, Segura y Las Villas">
+                    <p>Sierra de Cazorla</p>
+                </a>
+                <a href="LagunaDeChinche.html" class="carousel-item">
+                    <img src="/images/Parques/LagunaDeChinche/LagunaChincheSeca.jpg" alt="Laguna de Chinche">
+                    <p>Laguna de Chinche</p>
+                </a>
+                <a href="LagunaHonda.html" class="carousel-item">
+                    <img src="/images/Parques/LagunaHonda/Laguna_Honda,_Alcaudete.jpg" alt="Laguna Honda">
+                    <p>Laguna Honda</p>
+                </a>
+                <a href="MonteLaSierra.html" class="carousel-item">
+                    <img src="/images/Parques/MonteLaSierra/800px-Cañada_Hazadillas01_24J.jpg" alt="Monte La Sierra">
+                    <p>Monte La Sierra</p>
+                </a>
+                <a href="QuejigoDelAmo.html" class="carousel-item">
+                    <img src="/images/Parques/QuejigoDelAmoOdelCarbon/Quejigo_del_amo.JPG" alt="Quejigo del Amo o del Carbón">
+                    <p>Quejigo del Amo</p>
+                </a>
+                <a href="SierraMagina.html" class="carousel-item">
+                    <img src="/images/Parques/SierraMagina/El_Almadén_(Sierra_Mágina).jpg" alt="Sierra Mágina">
+                    <p>Sierra Mágina</p>
+                </a>
+                <a href="PinarDeCanavas.html" class="carousel-item">
+                    <img src="/images/Parques/PinardeCanava/Pinar_de_cánava.jpg" alt="Pinar de Cánava">
+                    <p>Pinar de Cánava</p>
+                </a>
+                <a href="SantaCatalina.html" class="carousel-item">
+                    <img src="/images/Parques/SantaCatalina/ParqueSantaCatalina.JPG" alt="Santa Catalina">
+                    <p>Santa Catalina</p>
+                </a>
+            </div>
+            <button class="carousel-btn next" aria-label="Mover derecha">&#8250;</button>
+        </div>
+        
+    </main>
+
+    <!-- Pie de página -->
+    <script>Footer();</script>
+</body>
+</html>

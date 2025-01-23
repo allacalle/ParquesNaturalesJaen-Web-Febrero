@@ -1,0 +1,335 @@
+:root {
+    --color-principal: #f2f2f2;
+    --color-secundario: #333333;
+    --color-acento: #4CAF50;
+    --color-verde-oscuro: #2E7D32;
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
+    --font-size-base: 10px;
+    --spacing-small: 0.8rem; 
+    --spacing-medium: 1.6rem; 
+    --spacing-large: 3.2rem; 
+    --border-radius: 1rem; 
+}
+/* Estilos generales */
+body {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-base);
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-principal);
+    color: var(--color-secundario);
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    font-family: var(--font-secondary);
+    font-weight: bold;
+    margin-top: 3rem;
+    font-size: var(--spacing-medium);
+}
+
+p {
+    font-family: var(--font-primary);
+    line-height: 2.5;
+    font-size: var(--spacing-small)
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: var(--spacing-small);
+    background-color: var(--color-verde-oscuro);
+    color: #fff;
+    margin-top: var(--spacing-large);
+}
+
+.center {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 2rem; /* Ajusta el tamaño de la fuente si es necesario */
+    margin:  auto; /* Elimina márgenes innecesarios */
+    padding: 20px;
+}
+
+
+
+main {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: var(--spacing-large);
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: var(--spacing-large);
+}
+
+/* Pie de página */
+/* Pie de página */
+footer {
+    background-color: var(--color-acento); /* Color base del footer */
+    color: #fff;
+    font-family: var(--font-primary);
+    padding: var(--spacing-large) var(--spacing-medium);
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--spacing-large);
+}
+
+.footer-section {
+    flex: 1 1 300px; /* Asegura que las secciones sean responsivas */
+}
+
+.footer-section h4 {
+    font-size: 1.2rem;
+    margin-bottom: var(--spacing-small);
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: var(--spacing-small);
+}
+
+.footer-section ul li a {
+    color: #FFD700; /* Amarillo suave */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #FFF; /* Blanco */
+}
+
+.footer-fair-use {
+    margin-top: var(--spacing-large);
+    padding-top: var(--spacing-small);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.footer-fair-use a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-bottom {
+    margin-top: var(--spacing-large);
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* Barra de navegación */
+.navbar {
+    height: 60px; /* Reducir la altura */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #D8E2DC, #FFE5D9); /* Verde pastel suave a coral pastel claro */
+    color: var(--color-secundario);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-list {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.navbar-list li {
+    margin: 0 var(--spacing-small); /* Reducir márgenes */
+}
+
+.navbar a {
+    font-family: var(--font-secondary);
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: var(--spacing-small) var(--spacing-medium); /* Reducir padding */
+    font-size: 1rem; /* Reducir el tamaño de la fuente */
+    font-weight: 500; /* Menos énfasis en la fuente */
+    transition: transform 0.3s ease;
+    background-color: #5E8C61;
+    border-radius: 20px; /* Reducir el border-radius */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15); /* Reducir sombra */
+}
+
+.navbar a:hover {
+    background-color: #4B704F;
+    transform: scale(1.05); /* Reducir el efecto de escala */
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2); /* Sombra más pequeña */
+}
+
+.navbar .logo img {
+    width: 60px; /* Reducir el tamaño del logo */
+    margin-right: var(--spacing-small); /* Reducir margen */
+    vertical-align: middle;
+    margin-top: 40px; /* Ajustar margen superior */
+}
+
+
+
+/* Estilos de las imágenes dentro de los artículos */
+.article-image img {
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsionarse */
+    border-radius: 10px; /* Esquinas redondeadas */
+    margin-bottom: var(--spacing-medium); /* Espaciado debajo de la imagen */
+    width: 100%; /* Asegura que la imagen ocupe el 100% del ancho disponible por defecto */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Ajuste del texto en relación con la imagen */
+.article-content {
+    margin-bottom: 2cap; /* Utiliza la unidad `cap` */
+}
+
+.image-left {
+    float: left;
+    margin: 0 1.5rem 1.5rem 0;
+    display: block;
+    max-width: 40%;
+}
+
+.image-right {
+    float: right;
+    margin: 0 0 1.5rem 1.5rem;
+    display: block;
+    max-width: 40%;
+}
+
+
+
+.article-image:hover {
+    transform: scale(1.02);
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 500px;
+    max-width: 800px; /* Limita el ancho máximo del video */
+    display: block;
+    margin: 0 auto; /* Centra el video */
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* A partir de pantallas grandes (por ejemplo, a partir de 768px de ancho), ocultamos el icono hamburguesa */
+@media screen and (min-width: 768px) {
+    .navbar-toggle {
+        display: none; /* Ocultamos el botón hamburguesa en pantallas grandes */
+    }
+    .article-image img {
+        max-height: 300px; /* Limita la altura máxima en pantallas grandes */
+        min-height: unset; /* Evita que se aplique una altura mínima */
+    }
+
+
+}
+
+
+
+/* Estilos del menú en pantallas pequeñas */
+@media (max-width: 768px) {
+    .navbar-list {
+        display: none; /* Ocultamos el menú por defecto en pantallas pequeñas */
+        flex-direction: column; /* Los elementos se apilan verticalmente */
+        align-items: center; /* Centra los elementos */
+        position: absolute; /* Lo colocamos sobre el contenido */
+        top: 60px; /* Espacio debajo de la barra de navegación */
+        left: 0;
+        right: 0;
+        background-color: var(--color-verde-oscuro); /* Fondo del menú */
+        padding: 1rem 0;
+        z-index: 999;
+    }
+
+    .navbar-toggle {
+        display: block; /* Mostrar el botón en pantallas pequeñas */
+    }
+
+    /* Mostrar el menú cuando se activa el botón */
+    .navbar-list.show {
+        display: flex; /* Mostrar el menú al agregar la clase 'show' */
+    }
+
+    /* Estilo de los enlaces del menú */
+.navbar-list li {
+    margin: 1rem 0; /* Espaciado vertical */
+}
+
+navbar-list a {
+    font-family: var(--font-secondary);
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: var(--spacing-small) var(--spacing-medium);
+    font-size: 1rem;
+    font-weight: 500;
+    transition: transform 0.3s ease;
+    background-color: #5E8C61;
+    border-radius: 20px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+}
+
+
+.navbar-list a:hover {
+    background-color: #4B704F;
+    transform: scale(1.05);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+.article-image img {
+    max-width: 100%; /* En móvil, la imagen puede ocupar todo el ancho disponible */
+    min-width: 50%; /* En móvil, la imagen ocupa al menos el 50% del ancho */
+}
+
+ /* Aumentar el tamaño del texto en el móvil */
+    .article-content p {
+        font-size: 1.4rem; /* Aumentar el tamaño de la fuente */
+    }
+
+
+    .article-image img {
+        max-width: 100%; /* En móvil, la imagen puede ocupar todo el ancho disponible */
+        min-width: 50%; /* En móvil, la imagen ocupa al menos el 50% del ancho */
+    }
+    .image-left {
+        max-width: 100%; /* Asegura que en móviles las imágenes flotadas ocupen todo el ancho */
+        min-width: 50%; /* El tamaño mínimo es el 50% en móvil */
+        float: none; /* Elimina el flotado para evitar que las imágenes queden desalineadas */
+        margin: 0 0 1.5rem 0; /* Ajusta el margen */  
+    }
+    
+    .image-right {
+        max-width: 100%; /* Asegura que en móviles las imágenes flotadas ocupen todo el ancho */
+        min-width: 50%; /* El tamaño mínimo es el 50% en móvil */
+        float: none; /* Elimina el flotado para evitar que las imágenes queden desalineadas */
+        margin: 0 0 1.5rem 0; /* Ajusta el margen */
+    }
+
+}

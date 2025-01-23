@@ -1,0 +1,208 @@
+/* Hero Section */
+.hero-parques {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px; /* Asegura que no se solape con el menú */
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Imagen estilo banner */
+.hero-image img {
+    position: absolute;
+    width: 100%;
+    height: 100%; /* Ocupa todo el alto disponible */
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Asegura que la imagen quede detrás del texto */
+}
+
+/* Fondo semitransparente para el texto */
+.hero-parques .texto {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+    color: rgb(72, 209, 79); /* Color del texto */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra el texto */
+    width: 90%; /* Ajusta el ancho si es necesario */
+    min-height: 150px; /* Asegura que haya suficiente espacio para el texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Títulos y párrafos dentro del texto */
+.hero-parques h1, .hero-parques p {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Agrega sombra al texto para mejor contraste */
+}
+
+/* Para la imagen en el mapa */
+#mapa_parques img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra la imagen */
+}
+
+/* Lista de parques */
+#lista-parques {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.parque {
+    margin: 10px 0;
+}
+
+.parque a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0056b3;
+}
+
+.parque a:hover {
+    color: #004085;
+}
+
+/* Contenedor general del carrusel */
+.carousel-item img {
+    width: 200px; /* Ancho fijo */
+    height: 150px; /* Alto fijo */
+    object-fit: cover; /* Ajusta el contenido de la imagen */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel {
+    display: flex;
+    gap: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-container {
+    position: relative;
+    width: 80%; /* Ajusta el ancho según necesites */
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-item {
+    flex: 0 0 calc(25% - 10px); /* 25% del contenedor menos el espacio del gap */
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Botones del carrusel */
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+
+.carousel-btn.prev {
+    left: 10px;
+}
+
+.carousel-btn.next {
+    right: 10px;
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+
+    .hero-parques .texto {
+        width: 95%; /* Más ancho en pantallas pequeñas */
+        padding: 15px;
+    }
+
+    .hero-parques h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-parques p {
+        font-size: 1rem;
+    }
+    /* Ajustes en la Hero Image */
+    .hero-image img {
+        max-height: 250px; /* Menor altura en pantallas más pequeñas */
+    }
+
+    #mapa_parques {
+        position: relative; /* Necesario para moverlo de forma controlada */
+        top: -20px; /* Mueve el mapa 20px hacia arriba */
+        width: 100%; /* Ajusta el ancho al 100% */
+        height: auto;
+    }
+
+    /* Carrusel: ajustar el número de elementos visibles */
+    .carousel-container {
+        width: 90%; /* Hacer el carrusel más ancho */
+    }
+
+    .carousel-item {
+        flex: 0 0 calc(50% - 10px); /* Mostrar 2 elementos en lugar de 4 */
+    }
+
+    /* Botones del carrusel: reducir el tamaño */
+    .carousel-btn {
+        font-size: 1.2rem;
+        padding: 8px 12px;
+    }
+
+    /* Ajustes en el texto */
+    .carousel-item p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Media Queries para pantallas muy pequeñas (móviles) */
+@media (max-width: 480px) {
+
+    .hero-parques {
+        margin-top: 100px; /* Más espacio en dispositivos pequeños si es necesario */
+    }
+    
+
+    /* Carrusel: ajustar el número de elementos visibles */
+    .carousel-item {
+        flex: 0 0 calc(100% - 10px); /* Mostrar solo 1 elemento por vez */
+    }
+
+    /* Ajustar el tamaño de la fuente */
+    .carousel-item p {
+        font-size: 0.8rem; /* Reducir el tamaño de fuente para pantallas pequeñas */
+    }
+}
