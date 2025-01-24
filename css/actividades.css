@@ -1,58 +1,46 @@
-    /* Estilos para el menú de actividades */
-    .menu-actividades {
-        display: flex;
-        justify-content: center;
-        background-color: #f8f9fa;
-        padding: 10px;
-        margin-bottom: 20px;
-        border-bottom: 2px solid #ddd;
-    }
+/* Estilos para el menú de actividades */
+.menu-actividades {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-principal); /* Usamos el color principal */
+    padding: var(--spacing-medium); /* Usamos el espaciado definido */
+    margin-bottom: var(--spacing-large); /* Usamos el espaciado definido */
+    border-bottom: 2px solid var(--color-secundario); /* Usamos el color secundario */
+}
 
-    .menu-actividades button {
-        background-color: transparent;
-        border: none;
-        padding: 10px 20px;
-        font-size: 16px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
+.menu-actividades button {
+    background-color: transparent;
+    border: none;
+    padding: var(--spacing-small) var(--spacing-medium); /* Usamos el espaciado definido */
+    font-size: var(--font-size-base); /* Usamos el tamaño base */
+    font-family: var(--font-primary); /* Usamos la fuente primaria */
+    color: var(--color-secundario); /* Usamos el color secundario */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
-    .menu-actividades button:hover {
-        background-color: #e9ecef;
-    }
+.menu-actividades button:hover {
+    background-color: var(--color-acento); /* Usamos el color de acento */
+    color: var(--color-principal); /* Usamos el color principal */
+}
 
-    .menu-actividades button.active {
-        background-color: #007bff;
-        color: white;
-    }
+.menu-actividades button.active {
+    background-color: var(--color-verde-oscuro); /* Usamos el verde oscuro */
+    color: var(--color-principal); /* Usamos el color principal */
+}
 
-    /* Estilos para las secciones de actividades */
-    .seccion-actividad {
-        display: none;
-        padding: 20px;
-        background-color: white;
-        border-radius: 5px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
+/* Estilos para las secciones de actividades */
+.seccion-actividad {
+    display: none;
+    padding: var(--spacing-large); /* Usamos el espaciado definido */
+    background-color: var(--color-principal); /* Usamos el color principal */
+    border-radius: var(--border-radius); /* Usamos el radio de borde definido */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: var(--spacing-large); /* Usamos el espaciado definido */
+}
 
-    .seccion-actividad.active {
-        display: block;
-    }
+.seccion-actividad.active {
+    display: block;
+}
 
-    .seccion-actividad img {
-        width: 100%;
-        max-width: 600px;
-        height: auto;
-        border-radius: 5px;
-        margin-bottom: 20px;
-    }
 
-    .seccion-actividad h3 {
-        font-size: 24px;
-        margin-bottom: 10px;
-    }
-
-    .seccion-actividad p {
-        font-size: 16px;
-        line-height: 1.6;
-    }

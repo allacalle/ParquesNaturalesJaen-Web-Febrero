@@ -1,0 +1,419 @@
+{
+    "categorias": [
+      {
+        "nombre": "Aventura y Deporte Extremo",
+        "actividades": [
+          {
+            "nombre": "Escalada en Roca",
+            "descripcion": "Escalada en zonas como la Cerrada del Utrero (Sierra de Cazorla) y Peña Grajera (Sierra Mágina).",
+            "duracion": "Medio día/día completo",
+            "dificultad": "Media a alta",
+            "precio": "Variable",
+            "empresas": [
+              {
+                "nombre": "Tierraventura Cazorla",
+                "web": "www.tierraventura.com"
+              },
+              {
+                "nombre": "Mágina Aventura",
+                "web": "www.maginaaventura.com"
+              }
+            ],
+            "imagen":  {
+                "url": "/images/actividades/rockClimbing.jpg",
+                "web":  "https://www.pexels.com/es-es/foto/persona-escalada-en-roca-3077882/",
+            }
+
+          },
+          {
+            "nombre": "Descenso de Barrancos",
+            "descripcion": "Descenso de barrancos en el Río Guadalentín (Los Órganos) y otras zonas.",
+            "duracion": "Medio día/día completo",
+            "dificultad": "Media a alta",
+            "precio": "Variable",
+            "empresas": [
+              {
+                "nombre": "Aventura Sport Xauen",
+                "web": "www.aventurasportxauen.com"
+              },
+              {
+                "nombre": "Tierraventura Cazorla",
+                "web": "www.tierraventura.com"
+              }
+            ]
+          },
+          {
+            "nombre": "Rutas 4x4",
+            "descripcion": "Excursiones en vehículos todoterreno por zonas de difícil acceso en Despeñaperros y Sierra de Cazorla.",
+            "duracion": "2-4 horas",
+            "dificultad": "Media",
+            "precio": "Consultar",
+            "empresas": [
+              {
+                "nombre": "Birds & Lynx Ecotourism",
+                "web": "https://www.birdslynxecotourism.com/"
+              },
+              {
+                "nombre": "Bujarkay",
+                "web": "https://www.bujarkay.com/"
+              },
+              {
+                "nombre": "Aventura Rural",
+                "web": "www.aventurarural.com"
+              }
+            ]
+          },
+          {
+            "nombre": "Piragüismo",
+            "descripcion": "Piragüismo en el Embalse de la Bolera (Los Órganos) y Río Guadalquivir (Alto Guadalquivir).",
+            "duracion": "Medio día/día completo",
+            "dificultad": "Baja a media",
+            "precio": "Variable",
+            "empresas": [
+              {
+                "nombre": "Tierraventura Cazorla",
+                "web": "www.tierraventura.com"
+              },
+              {
+                "nombre": "EcoGuadalquivir",
+                "web": "www.ecoguadalquivir.com"
+              }
+            ]
+          },
+          {
+            "nombre": "Espeleología",
+            "descripcion": "Exploración de cuevas y simas en la Sierra de Mágina.",
+            "duracion": "3-4 horas",
+            "dificultad": "Alta",
+            "precio": "Consultar",
+            "empresas": [
+              {
+                "nombre": "Mágina Aventura",
+                "web": "www.maginaaventura.com"
+              }
+            ]
+          },
+          {
+            "nombre": "Ciclismo de Montaña",
+            "descripcion": "Rutas en bicicleta por senderos de Sierra de Cazorla, Sierra Mágina y Pinar de Cánava.",
+            "duracion": "Medio día/día completo",
+            "dificultad": "Media",
+            "precio": "Variable",
+            "empresas": [
+              {
+                "nombre": "Aventura Sport Xauen",
+                "web": "www.aventurasportxauen.com"
+              },
+              {
+                "nombre": "Mágina Bikes",
+                "web": "www.maginabikes.com"
+              }
+            ]
+          },
+          {
+            "nombre": "Paseos a Caballo",
+            "descripcion": "Rutas ecuestres por entornos naturales en Sierra de Cazorla, Sierra Mágina y Pinar de Cánava.",
+            "duracion": "Medio día/día completo",
+            "dificultad": "Baja a media",
+            "precio": "Variable",
+            "empresas": [
+              {
+                "nombre": "Hípica Cazorla",
+                "web": "www.hipicacazorla.com"
+              },
+              {
+                "nombre": "Aventura Jaén",
+                "web": "www.aventurajaen.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Naturaleza y Observación",
+        "actividades": [
+          {
+            "nombre": "Avistamiento de Fauna",
+            "descripcion": "Observación de especies como el lince ibérico y el águila imperial en Sierra de Andújar y Despeñaperros.",
+            "duracion": "2-4 horas",
+            "dificultad": "Media",
+            "precio": "Consultar",
+            "empresas": [
+              {
+                "nombre": "Iberian Lynx Land SL",
+                "web": "https://iberianlynxland.com/"
+              },
+              {
+                "nombre": "Birding Trekking and Nature",
+                "web": "https://www.turismodeobservacion.com/empresa/birding-trekking-and-nature/21/"
+              },
+              {
+                "nombre": "Spainbirds Nature Tours SL",
+                "web": "https://www.spainbirds.com/"
+              }
+            ]
+          },
+          {
+            "nombre": "Observación de Aves",
+            "descripcion": "Avistamiento de aves acuáticas en Laguna Grande, Laguna de Chinche y Alto Guadalquivir.",
+            "duracion": "1-3 horas",
+            "dificultad": "Baja",
+            "precio": "Gratuito o consultar",
+            "empresas": [
+              {
+                "nombre": "Consejería de Sostenibilidad",
+                "web": ""
+              },
+              {
+                "nombre": "Birding Jaén",
+                "web": "www.birdingjaen.com"
+              }
+            ]
+          },
+          {
+            "nombre": "Senderismo",
+            "descripcion": "Rutas por senderos en Sierra de Andújar, Despeñaperros, Los Órganos, Sierra Mágina y Pinar de Cánava.",
+            "duracion": "1-6 horas",
+            "dificultad": "Baja a alta",
+            "precio": "Gratuito o consultar",
+            "empresas": [
+              {
+                "nombre": "Consejería de Sostenibilidad",
+                "web": ""
+              }
+              {
+                "nombre": "aktivjaen" ,
+                "web" : "https://aktivjaen.es/"
+              }
+            ]
+          },
+          {
+            "nombre": "Fotografía de Naturaleza",
+            "descripcion": "Paisajes ideales para fotografía en Cascada de la Cimbarra y Los Órganos.",
+            "duracion": "Variable",
+            "dificultad": "Baja",
+            "precio": "Gratuito",
+            "empresas": [
+              {
+                "nombre": "",
+                "web": ""
+              }
+            ]
+          },
+          {
+            "nombre": "Huellas de Dinosaurio",
+            "descripcion": "Visita a las icnitas (huellas fosilizadas) en Santisteban del Puerto.",
+            "duracion": "1-2 horas",
+            "dificultad": "Baja",
+            "precio": "Gratuito",
+            "empresas": [
+              {
+                "nombre": "Ayuntamiento de Santisteban del Puerto",
+                "web": "https://www.santistebandelpuerto.es/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Relajación y Bienestar",
+        "actividades": [
+          {
+            "nombre": "Baños de Bosque",
+            "descripcion": "Actividades relajantes en entornos naturales en Los Órganos y Sierra de Cazorla.",
+            "duracion": "2-4 horas",
+            "dificultad": "Baja",
+            "precio": "Variable",
+            "empresas": [
+              {
+                "nombre": "Cazorla Aventura",
+                "web": "www.cazorlaaventura.com"
+              },
+              {
+                "nombre": "Naturaventura Cazorla",
+                "web": "www.naturaventuracazorla.com"
+              }
+            ]
+          },
+          {
+            "nombre": "Mindfulness",
+            "descripcion": "Sesiones de mindfulness en la naturaleza en Los Órganos y Sierra de Cazorla.",
+            "duracion": "2-4 horas",
+            "dificultad": "Baja",
+            "precio": "Variable",
+            "empresas": [
+              {
+                "nombre": "Naturaventura Cazorla",
+                "web": "www.naturaventuracazorla.com"
+              }
+            ]
+          },
+          {
+            "nombre": "Yoga en la Naturaleza",
+            "descripcion": "Sesiones de yoga en entornos naturales en Los Órganos y Sierra de Cazorla.",
+            "duracion": "2-4 horas",
+            "dificultad": "Baja",
+            "precio": "Variable",
+            "empresas": [
+              {
+                "nombre": "Cazorla Aventura",
+                "web": "www.cazorlaaventura.com"
+              }
+            ]
+          },
+          {
+            "nombre": "Picnic",
+            "descripcion": "Zonas habilitadas para picnic en El Piélago, Pinar de Cánava y Santa Catalina.",
+            "duracion": "1-2 horas",
+            "dificultad": "Baja",
+            "precio": "Gratuito",
+            "empresas": [
+              {
+                "nombre": "No requiere empresa",
+                "web": ""
+              }
+            ]
+          },
+          {
+            "nombre": "Astroturismo",
+            "descripcion": "Observación de estrellas en Laguna Grande y Sierra Mágina.",
+            "duracion": "2-3 horas",
+            "dificultad": "Baja",
+            "precio": "Gratuito o consultar",
+            "empresas": [
+              {
+                "nombre": "Asociaciones astronómicas",
+                "web": ""
+              },
+              {
+                "nombre": "Turismo Activo Alto Guadalquivir",
+                "web": "www.altoguadalquivir.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Cultura y Tradición",
+        "actividades": [
+          {
+            "nombre": "Romería de la Virgen de la Cabeza",
+            "descripcion": "Peregrinación anual al Santuario de la Virgen de la Cabeza en Sierra de Andújar.",
+            "duracion": "1 día",
+            "dificultad": "Baja",
+            "precio": "Gratuito",
+            "empresas": [
+              {
+                "nombre": "Ayuntamiento de Andújar",
+                "web": ""
+              }
+            ]
+          },
+          {
+            "nombre": "Gastronomía Local",
+            "descripcion": "Degustación de productos típicos como aceite de oliva y quesos en Sierra Mágina.",
+            "duracion": "1-2 horas",
+            "dificultad": "Baja",
+            "precio": "Consultar",
+            "empresas": [
+              {
+                "nombre": "Sabores de Mágina",
+                "web": "www.saboresdemagina.com"
+              }
+            ]
+          },
+          {
+            "nombre": "Visitas Guiadas",
+            "descripcion": "Recorridos guiados en Despeñaperros, Los Órganos y Sierra Mágina.",
+            "duracion": "1-4 horas",
+            "dificultad": "Baja",
+            "precio": "Gratuito o consultar",
+            "empresas": [
+              {
+                "nombre": "Consejería de Sostenibilidad",
+                "web": "https://www.juntadeandalucia.es/organismos/sostenibilidadymedioambiente.html"
+              },
+              {
+                "nombre": "Naturaventura Cazorla",
+                "web": "www.naturaventuracazorla.com"
+              }
+            ]
+          },
+          {
+            "nombre": "Ecotalleres",
+            "descripcion": "Talleres educativos sobre orientación, plantas aromáticas y rastreo de huellas en Los Órganos y Sierra de Cazorla.",
+            "duracion": "2-4 horas",
+            "dificultad": "Baja",
+            "precio": "Variable",
+            "empresas": [
+              {
+                "nombre": "Naturaventura Cazorla",
+                "web": "www.naturaventuracazorla.com"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Actividades Familiares y Educativas",
+        "actividades": [
+          {
+            "nombre": "Senderismo Fácil",
+            "descripcion": "Rutas cortas y accesibles en El Piélago, Pinar de Cánava y Santa Catalina.",
+            "duracion": "1-2 horas",
+            "dificultad": "Baja",
+            "precio": "Gratuito",
+            "empresas": [
+              {
+                "nombre": "Consejería de Sostenibilidad",
+                "web": "https://www.juntadeandalucia.es/organismos/sostenibilidadymedioambiente.html"
+              }
+            ]
+          },
+          {
+            "nombre": "Observación de Huellas de Dinosaurio",
+            "descripcion": "Visita a las icnitas en Santisteban del Puerto.",
+            "duracion": "1-2 horas",
+            "dificultad": "Baja",
+            "precio": "Gratuito",
+            "empresas": [
+              {
+                "nombre": "Ayuntamiento de Santisteban del Puerto",
+                "web": "https://www.santistebandelpuerto.es/"
+              }
+            ]
+          },
+          {
+            "nombre": "Talleres de Anillamiento de Aves",
+            "descripcion": "Actividad educativa sobre el anillamiento científico en Laguna Grande y Alto Guadalquivir.",
+            "duracion": "2-3 horas",
+            "dificultad": "Baja",
+            "precio": "Gratuito o consultar",
+            "empresas": [
+              {
+                "nombre": "Asociaciones ornitológicas",
+                "web": ""
+              },
+              {
+                "nombre": "Birding Jaén",
+                "web": "www.birdingjaen.com"
+              }
+            ]
+          },
+          {
+            "nombre": "Voluntariado Ambiental",
+            "descripcion": "Limpieza de orillas del embalse del Encinarejo en Sierra de Andújar.",
+            "duracion": "4-6 horas",
+            "dificultad": "Media",
+            "precio": "Gratuito",
+            "empresas": [
+              {
+                "nombre": "AMAPSA",
+                "web": "https://amapsa.wixsite.com/amapsa"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
