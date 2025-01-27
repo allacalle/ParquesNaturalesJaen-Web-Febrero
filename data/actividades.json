@@ -21,7 +21,7 @@
             ],
             "imagen":  {
                 "url": "/images/actividades/rockClimbing.jpg",
-                "web":  "https://www.pexels.com/es-es/foto/persona-escalada-en-roca-3077882/",
+                "web":  "https://www.pexels.com/es-es/foto/persona-escalada-en-roca-3077882/"
             }
 
           },
@@ -40,11 +40,15 @@
                 "nombre": "Tierraventura Cazorla",
                 "web": "www.tierraventura.com"
               }
-            ]
+            ],
+            "imagen":  {
+                "url": "/images/actividades/canyoning.jpg",
+                "web":  "https://www.pexels.com/es-es/foto/hombre-escalada-en-montana-roca-449609/"
+            }
           },
           {
             "nombre": "Rutas 4x4",
-            "descripcion": "Excursiones en vehículos todoterreno por zonas de difícil acceso en Despeñaperros y Sierra de Cazorla.",
+            "descripcion": "Explora paisajes impresionantes y de difícil acceso en vehículos todoterreno. Recorre el Parque Natural de Despeñaperros, hogar del majestuoso lince ibérico, y los frondosos bosques y montañas de la Sierra de Cazorla, el mayor espacio protegido de España.",
             "duracion": "2-4 horas",
             "dificultad": "Media",
             "precio": "Consultar",
@@ -61,12 +65,16 @@
                 "nombre": "Aventura Rural",
                 "web": "www.aventurarural.com"
               }
-            ]
+            ],
+            "imagen":  {
+                "url": "/images/actividades/4x4Routes.jpg",
+                "web":  "https://www.pexels.com/es-es/foto/30298036/"
+            }
           },
           {
             "nombre": "Piragüismo",
-            "descripcion": "Piragüismo en el Embalse de la Bolera (Los Órganos) y Río Guadalquivir (Alto Guadalquivir).",
-            "duracion": "Medio día/día completo",
+            "descripcion": "Navega en piraguas por el tranquilo Embalse de la Bolera, rodeado de montañas en el corazón de la Sierra de Cazorla, o disfruta del piragüismo en las aguas del Alto Guadalquivir, ideales para principiantes y aventureros con algo más de experiencia.",
+            "duracion": "Medio día o día completo (a elección del participante)",
             "dificultad": "Baja a media",
             "precio": "Variable",
             "empresas": [
@@ -78,27 +86,35 @@
                 "nombre": "EcoGuadalquivir",
                 "web": "www.ecoguadalquivir.com"
               }
-            ]
+            ],
+            "imagen":  {
+              "url": "/images/actividades/canyoning.jpg",
+              "web":  "https://www.pexels.com/es-es/foto/tres-hombres-en-kayaks-en-cuerpo-de-agua-1497587/"
+          }
           },
           {
             "nombre": "Espeleología",
-            "descripcion": "Exploración de cuevas y simas en la Sierra de Mágina.",
+            "descripcion": "Adéntrate en las profundidades de la Sierra de Mágina, donde explorarás impresionantes cuevas y simas. Vive una experiencia única en la que descubrirás formaciones rocosas, pasajes subterráneos y un ecosistema subterráneo fascinante.",
             "duracion": "3-4 horas",
-            "dificultad": "Alta",
+            "dificultad": "Alta (requiere experiencia previa o estar en buena condición física)",
             "precio": "Consultar",
             "empresas": [
               {
                 "nombre": "Mágina Aventura",
                 "web": "www.maginaaventura.com"
               }
-            ]
+            ],
+            "imagen":  {
+              "url": "/images/actividades/speleology.jpg",
+              "web":  "https://www.pexels.com/es-es/foto/hombre-rocas-en-pie-de-pie-17405151/"
+          }
           },
           {
             "nombre": "Ciclismo de Montaña",
-            "descripcion": "Rutas en bicicleta por senderos de Sierra de Cazorla, Sierra Mágina y Pinar de Cánava.",
-            "duracion": "Medio día/día completo",
-            "dificultad": "Media",
-            "precio": "Variable",
+            "descripcion": "Recorre algunos de los senderos más impresionantes de las montañas de Andalucía, desde los paisajes espectaculares de la Sierra de Cazorla hasta los desniveles de la Sierra Mágina y los tranquilos caminos del Pinar de Cánava. Vive una aventura llena de naturaleza, superando retos de todo tipo, ya sea en recorridos de medio día o exploraciones de día completo.",
+            "duracion": "Desde medio día hasta un día completo, adaptado al nivel de los participantes",
+            "dificultad": "Media (se recomienda tener algo de experiencia en ciclismo de montaña)",
+            "precio": "Consultar con las empresas para más detalles",
             "empresas": [
               {
                 "nombre": "Aventura Sport Xauen",
@@ -108,14 +124,18 @@
                 "nombre": "Mágina Bikes",
                 "web": "www.maginabikes.com"
               }
-            ]
+            ],
+            "imagen":  {
+              "url": "/images/actividades/mountainBiking.jpg",
+              "web":  "https://www.pexels.com/es-es/foto/hombre-sujetando-el-arbol-disfrutando-de-la-vista-de-la-montana-1068596/"
+              }
           },
           {
             "nombre": "Paseos a Caballo",
-            "descripcion": "Rutas ecuestres por entornos naturales en Sierra de Cazorla, Sierra Mágina y Pinar de Cánava.",
-            "duracion": "Medio día/día completo",
-            "dificultad": "Baja a media",
-            "precio": "Variable",
+            "descripcion": "Vive la experiencia de recorrer algunos de los paisajes más hermosos de Andalucía a lomos de un caballo. Disfruta de rutas ecuestres adaptadas a todos los niveles por entornos naturales como la Sierra de Cazorla, la Sierra Mágina y el Pinar de Cánava. Ya sea en una salida de medio día o un paseo de día completo, te conectarás con la naturaleza mientras exploras estos parajes únicos.",
+            "duracion": "Desde medio día hasta un día completo, dependiendo del nivel y preferencia del grupo",
+            "dificultad": "Baja a media (actividad apta para principiantes y expertos)",
+            "precio": "Variable, consultar con las empresas",
             "empresas": [
               {
                 "nombre": "Hípica Cazorla",
@@ -125,7 +145,11 @@
                 "nombre": "Aventura Jaén",
                 "web": "www.aventurajaen.com"
               }
-            ]
+            ],
+            "imagen":  {
+              "url": "/images/actividades/horseRiding.jpg",
+              "web":  "https://www.pexels.com/es-es/foto/caballo"
+            }
           }
         ]
       },
@@ -134,10 +158,10 @@
         "actividades": [
           {
             "nombre": "Avistamiento de Fauna",
-            "descripcion": "Observación de especies como el lince ibérico y el águila imperial en Sierra de Andújar y Despeñaperros.",
-            "duracion": "2-4 horas",
-            "dificultad": "Media",
-            "precio": "Consultar",
+            "descripcion": "Embárcate en una experiencia única para observar algunas de las especies más emblemáticas de la fauna española, como el lince ibérico y el águila imperial, en su hábitat natural. Esta actividad te lleva a lugares privilegiados como la Sierra de Andújar y Despeñaperros, donde expertos guías te acompañarán en un recorrido por los ecosistemas más ricos en biodiversidad. Ya sea durante una caminata tranquila o una excursión más intensa, la emoción de observar estos majestuosos animales en libertad hará de tu aventura algo inolvidable.",
+            "duracion": "De 2 a 4 horas, dependiendo de la ruta y los avistamientos",
+            "dificultad": "Media (actividad apta para todos los públicos con diferentes niveles de dificultad según la ruta)",
+            "precio": "Consultar con las empresas, dependiendo del recorrido",
             "empresas": [
               {
                 "nombre": "Iberian Lynx Land SL",
@@ -151,14 +175,18 @@
                 "nombre": "Spainbirds Nature Tours SL",
                 "web": "https://www.spainbirds.com/"
               }
-            ]
+            ],
+            "imagen":  {
+              "url": "/images/actividades/wildlifeSighting.jpg",
+              "web":  "https://www.pexels.com/es-es/foto/naturaleza-campo-animal-fotografia-26868196/"
+            }
           },
           {
             "nombre": "Observación de Aves",
-            "descripcion": "Avistamiento de aves acuáticas en Laguna Grande, Laguna de Chinche y Alto Guadalquivir.",
-            "duracion": "1-3 horas",
-            "dificultad": "Baja",
-            "precio": "Gratuito o consultar",
+            "descripcion": "Sumérgete en la tranquilidad de la naturaleza con el avistamiento de aves acuáticas en los impresionantes paisajes de Laguna Grande, Laguna de Chinche y el Alto Guadalquivir. Durante esta actividad, podrás observar una amplia variedad de aves migratorias y locales en sus hábitats naturales, un espectáculo perfecto para los amantes de la naturaleza, la fotografía y el avistamiento de fauna. Con la guía de expertos locales, aprenderás sobre las especies que habitan estos ecosistemas y disfrutarás de un entorno pacífico rodeado de belleza natural.",
+            "duracion": "De 1 a 3 horas, dependiendo del interés y las especies avistadas",
+            "dificultad": "Baja (actividad accesible para todos los públicos)",
+            "precio": "Gratuito o consultar con las empresas para recorridos guiados",
             "empresas": [
               {
                 "nombre": "Consejería de Sostenibilidad",
@@ -168,7 +196,11 @@
                 "nombre": "Birding Jaén",
                 "web": "www.birdingjaen.com"
               }
-            ]
+            ],
+            "imagen":  {
+              "url": "/images/actividades/birdWatching.jpg",
+              "web":  "https://www.pexels.com/es-es/foto/aves-29288629/"
+            }
           },
           {
             "nombre": "Senderismo",
@@ -180,38 +212,33 @@
               {
                 "nombre": "Consejería de Sostenibilidad",
                 "web": ""
-              }
+              },
               {
                 "nombre": "aktivjaen" ,
                 "web" : "https://aktivjaen.es/"
               }
-            ]
+            ],
+            "imagen":  {
+              "url": "/images/actividades/hiking.jpg",
+              "web":  "https://www.pexels.com/es-es/foto/enfoque-superficial-en-la-mujer-de-pelo-rubio-en-camisa-blanca-de-manga-larga-con-un-bebe-en-la-espalda-701016/"
+            }
           },
           {
             "nombre": "Fotografía de Naturaleza",
-            "descripcion": "Paisajes ideales para fotografía en Cascada de la Cimbarra y Los Órganos.",
-            "duracion": "Variable",
-            "dificultad": "Baja",
+            "descripcion": "Explora algunos de los paisajes más impresionantes de la región con una experiencia única de fotografía en lugares emblemáticos como la Cascada de la Cimbarra y Los Órganos. Estos entornos naturales ofrecen un sinfín de oportunidades para capturar la belleza de la naturaleza en su estado más puro, desde formaciones rocosas imponentes hasta cascadas exuberantes, ideales para los amantes de la fotografía de paisajes. Aprovecha la oportunidad para perfeccionar tus habilidades fotográficas mientras disfrutas de la serenidad de estos espacios naturales.",
+            "duracion": "Variable, adaptada a tus necesidades y el tiempo disponible para capturar la belleza del entorno",
+            "dificultad": "Baja (actividad accesible para todos los niveles de experiencia fotográfica)",
             "precio": "Gratuito",
             "empresas": [
               {
                 "nombre": "",
                 "web": ""
               }
-            ]
-          },
-          {
-            "nombre": "Huellas de Dinosaurio",
-            "descripcion": "Visita a las icnitas (huellas fosilizadas) en Santisteban del Puerto.",
-            "duracion": "1-2 horas",
-            "dificultad": "Baja",
-            "precio": "Gratuito",
-            "empresas": [
-              {
-                "nombre": "Ayuntamiento de Santisteban del Puerto",
-                "web": "https://www.santistebandelpuerto.es/"
-              }
-            ]
+            ],
+            "imagen":  {
+              "url": "/images/actividades/naturePhotography.jpg",
+              "web":  "https://www.pexels.com/es-es/foto/30295930/"
+            } 
           }
         ]
       },
@@ -219,51 +246,47 @@
         "nombre": "Relajación y Bienestar",
         "actividades": [
           {
-            "nombre": "Baños de Bosque",
-            "descripcion": "Actividades relajantes en entornos naturales en Los Órganos y Sierra de Cazorla.",
-            "duracion": "2-4 horas",
-            "dificultad": "Baja",
-            "precio": "Variable",
-            "empresas": [
-              {
-                "nombre": "Cazorla Aventura",
-                "web": "www.cazorlaaventura.com"
-              },
-              {
-                "nombre": "Naturaventura Cazorla",
-                "web": "www.naturaventuracazorla.com"
-              }
-            ]
-          },
-          {
             "nombre": "Mindfulness",
-            "descripcion": "Sesiones de mindfulness en la naturaleza en Los Órganos y Sierra de Cazorla.",
-            "duracion": "2-4 horas",
-            "dificultad": "Baja",
+            "descripcion": "Sumérgete en una experiencia única de mindfulness rodeado de la serenidad de la naturaleza en Los Órganos y Sierra de Cazorla. A través de sesiones guiadas, podrás conectar contigo mismo y con el entorno natural, practicando técnicas de meditación y respiración en paisajes tranquilos. Esta actividad está diseñada para reducir el estrés y fomentar el bienestar, permitiendo a los participantes encontrar paz y concentración en medio de la naturaleza. Ideal para todos aquellos que buscan relajarse y mejorar su equilibrio mental y emocional.",
+            "duracion": "2-4 horas, adaptada a tus necesidades de relajación y bienestar",
+            "dificultad": "Baja (accesible para todos los niveles de experiencia)",
             "precio": "Variable",
+            
             "empresas": [
               {
-                "nombre": "Naturaventura Cazorla",
-                "web": "www.naturaventuracazorla.com"
+                "nombre": "Mindfulness Jaén" ,
+                "web": "https://mindfulnessjaen.com/go/reduccion-de-estres-basado-en-atencion-plena-12/"
               }
-            ]
+            ],
+            "imagen":  {
+              "url": "/images/actividades/mindfulness.jpg",
+              "web":  "https://www.pexels.com/es-es/foto/foto-de-mujer-haciendo-yoga-sentada-sobre-una-roca-3820380/" 
+            }
           },
           {
             "nombre": "Yoga en la Naturaleza",
-            "descripcion": "Sesiones de yoga en entornos naturales en Los Órganos y Sierra de Cazorla.",
+            "descripcion": "Sesiones de yoga en entornos naturales como la Sierra de Cazorla y Sierra de las Villas, donde podrás conectar cuerpo y mente rodeado de paisajes tranquilos y naturales.",
             "duracion": "2-4 horas",
             "dificultad": "Baja",
             "precio": "Variable",
             "empresas": [
               {
-                "nombre": "Cazorla Aventura",
-                "web": "www.cazorlaaventura.com"
+                "nombre": "Mountain Yoga",
+                "web": "https://sites.google.com/view/mountain-yoga/inicio"
+              },
+              {
+                "nombre": "Dakini Yoga | into the wild life",
+                "web": "https://dakiniyoga.es/"
               }
-            ]
+            ],
+            "imagen":  {
+              "url": "/images/actividades/yogaInNature.jpg",
+              "web":  "https://www.pexels.com/es-es/foto/naturaleza-mujer-bosque-arboles-13865962/"
+            }
           },
           {
             "nombre": "Picnic",
-            "descripcion": "Zonas habilitadas para picnic en El Piélago, Pinar de Cánava y Santa Catalina.",
+            "descripcion": "Disfruta de un relajante picnic rodeado de naturaleza en algunas de las zonas más hermosas de los parques naturales de Jaén. Las áreas de El Piélago, Pinar de Cánava y Monte la Sierra ofrecen espacios tranquilos y accesibles, perfectos para pasar un día en familia o con amigos, rodeado de bosques, montañas y paisajes impresionantes.",
             "duracion": "1-2 horas",
             "dificultad": "Baja",
             "precio": "Gratuito",
@@ -272,24 +295,28 @@
                 "nombre": "No requiere empresa",
                 "web": ""
               }
-            ]
+            ],
+            "imagen":  {
+              "url": "/images/actividades/picnic.jpg",
+              "web":  "https://www.pexels.com/es-es/foto/grupo-de-personas-sentadas-sobre-una-alfombra-blanca-en-el-campo-de-hierba-745045/"
+            }
           },
           {
             "nombre": "Astroturismo",
-            "descripcion": "Observación de estrellas en Laguna Grande y Sierra Mágina.",
+            "descripcion": "Vive la magia del cielo nocturno con una experiencia de astroturismo en dos de los lugares más destacados de Jaén: la Laguna Grande y la Sierra Mágina. En estas ubicaciones privilegiadas, alejadas de la contaminación lumínica, podrás observar las estrellas, constelaciones y planetas con la ayuda de expertos astrónomos. Disfruta de una velada única mientras aprendes sobre el universo y las maravillas del cielo nocturno.",
             "duracion": "2-3 horas",
             "dificultad": "Baja",
             "precio": "Gratuito o consultar",
             "empresas": [
               {
-                "nombre": "Asociaciones astronómicas",
-                "web": ""
-              },
-              {
-                "nombre": "Turismo Activo Alto Guadalquivir",
-                "web": "www.altoguadalquivir.com"
+                "nombre": "Reserva Starlight Sierra Sur de Jaén",
+                "web": "https://www.jaenparaisointerior.es/es/astroturismo"
               }
-            ]
+            ],
+            "imagen":  {
+              "url": "/images/actividades/astrotourism.jpg",
+              "web":  "https://www.pexels.com/es-es/foto/ligero-carretera-paisaje-naturaleza-19566216/"
+            }
           }
         ]
       },
@@ -298,20 +325,24 @@
         "actividades": [
           {
             "nombre": "Romería de la Virgen de la Cabeza",
-            "descripcion": "Peregrinación anual al Santuario de la Virgen de la Cabeza en Sierra de Andújar.",
+            "descripcion": "La Romería de la Virgen de la Cabeza, una de las peregrinaciones más importantes de Andalucía, se celebra anualmente en la Sierra de Andújar. Miles de devotos recorren el bello paraje natural hasta llegar al Santuario, en una jornada de gran fervor religioso y convivencia. Vive la tradición, las danzas, los cantos y el ambiente único de esta fiesta popular que ha sido transmitida a lo largo de los siglos.",
             "duracion": "1 día",
             "dificultad": "Baja",
             "precio": "Gratuito",
             "empresas": [
               {
                 "nombre": "Ayuntamiento de Andújar",
-                "web": ""
+                "web": "https://www.andujar.es/"
               }
-            ]
+            ],
+            "imagen":  {
+              "url": "/images/actividades/virgenDeLaCabeza.jpg",
+              "web":  "https://buensalud.es/romeria-de-la-virgen-de-la-cabeza-2020/"
+            }
           },
           {
             "nombre": "Gastronomía Local",
-            "descripcion": "Degustación de productos típicos como aceite de oliva y quesos en Sierra Mágina.",
+            "descripcion": "Sumérgete en los sabores de la provincia de Jaén con una experiencia única de degustación. Disfruta de los exquisitos aceites de oliva virgen extra y una selección de quesos artesanales, mientras disfrutar por ejemplo en Sierra Mágina. Un recorrido por los auténticos sabores de la tierra, donde la tradición y la calidad se dan la mano en un entorno natural de impresionante belleza.",
             "duracion": "1-2 horas",
             "dificultad": "Baja",
             "precio": "Consultar",
@@ -320,11 +351,15 @@
                 "nombre": "Sabores de Mágina",
                 "web": "www.saboresdemagina.com"
               }
-            ]
+            ],
+            "imagen":  {
+              "url": "/images/actividades/localGastronomy.jpg",
+              "web":  "https://www.pexels.com/es-es/foto/foto-de-aceitunas-en-taza-de-aceite-de-oliva-1022385/"
+            }
           },
           {
             "nombre": "Visitas Guiadas",
-            "descripcion": "Recorridos guiados en Despeñaperros, Los Órganos y Sierra Mágina.",
+            "descripcion": "Disfruta de un recorrido guiado por los paisajes más impresionantes de Sierra de Cazorla, uno de los parques naturales más ricos en biodiversidad de Europa. A lo largo de las rutas, tendrás la oportunidad de conocer las singularidades geológicas, la flora y fauna autóctona, y los encantos históricos de las villas cercanas como Cazorla y La Iruela. Con la ayuda de guías locales expertos, podrás conocer la historia y los secretos de esta región de una manera accesible y educativa, todo mientras disfrutas de la belleza natural que la rodea.",
             "duracion": "1-4 horas",
             "dificultad": "Baja",
             "precio": "Gratuito o consultar",
@@ -334,23 +369,14 @@
                 "web": "https://www.juntadeandalucia.es/organismos/sostenibilidadymedioambiente.html"
               },
               {
-                "nombre": "Naturaventura Cazorla",
-                "web": "www.naturaventuracazorla.com"
+                "nombre": "Aventuras Cazorla",
+                "web": "https://www.aventuracazorla.com/"
               }
-            ]
-          },
-          {
-            "nombre": "Ecotalleres",
-            "descripcion": "Talleres educativos sobre orientación, plantas aromáticas y rastreo de huellas en Los Órganos y Sierra de Cazorla.",
-            "duracion": "2-4 horas",
-            "dificultad": "Baja",
-            "precio": "Variable",
-            "empresas": [
-              {
-                "nombre": "Naturaventura Cazorla",
-                "web": "www.naturaventuracazorla.com"
-              }
-            ]
+            ],
+            "imagen":  {
+              "url": "/images/actividades/guidedTours.jpg",
+              "web":  "https://www.pexels.com/es-es/foto/29049909/"
+            }
           }
         ]
       },
@@ -359,8 +385,7 @@
         "actividades": [
           {
             "nombre": "Senderismo Fácil",
-            "descripcion": "Rutas cortas y accesibles en El Piélago, Pinar de Cánava y Santa Catalina.",
-            "duracion": "1-2 horas",
+            "descripcion": "Disfruta de una experiencia de senderismo accesible con rutas cortas y fáciles, ideales para principiantes y familias. Conecta con la naturaleza mientras exploras tranquilos senderos rodeados de paisajes naturales, fauna y flora autóctona. Estas rutas están pensadas para que todos puedan disfrutar del aire libre sin la necesidad de un gran esfuerzo físico, ofreciendo una forma relajante de descubrir los encantos del entorno natural.",            "duracion": "1-2 horas",
             "dificultad": "Baja",
             "precio": "Gratuito",
             "empresas": [
@@ -368,11 +393,15 @@
                 "nombre": "Consejería de Sostenibilidad",
                 "web": "https://www.juntadeandalucia.es/organismos/sostenibilidadymedioambiente.html"
               }
-            ]
+            ],
+            "imagen": {
+              "url": "/images/actividades/easyHiking.jpg",
+              "web":  "https://www.pexels.com/es-es/foto/un-padre-y-sus-hijos-cerca-del-cuerpo-de-agua-1157398/"
+            }
           },
           {
             "nombre": "Observación de Huellas de Dinosaurio",
-            "descripcion": "Visita a las icnitas en Santisteban del Puerto.",
+            "descripcion": "Descubre las huellas fósiles de dinosaurios en un recorrido fascinante por el patrimonio natural de Santisteban del Puerto. Estas icnitas, vestigios de criaturas prehistóricas, ofrecen una experiencia única para los amantes de la paleontología y la historia natural. Durante la visita, podrás explorar el entorno y aprender sobre el pasado remoto de la región, mientras te maravillas con estas formaciones que han perdurado a través del tiempo.",
             "duracion": "1-2 horas",
             "dificultad": "Baja",
             "precio": "Gratuito",
@@ -381,28 +410,15 @@
                 "nombre": "Ayuntamiento de Santisteban del Puerto",
                 "web": "https://www.santistebandelpuerto.es/"
               }
-            ]
-          },
-          {
-            "nombre": "Talleres de Anillamiento de Aves",
-            "descripcion": "Actividad educativa sobre el anillamiento científico en Laguna Grande y Alto Guadalquivir.",
-            "duracion": "2-3 horas",
-            "dificultad": "Baja",
-            "precio": "Gratuito o consultar",
-            "empresas": [
-              {
-                "nombre": "Asociaciones ornitológicas",
-                "web": ""
-              },
-              {
-                "nombre": "Birding Jaén",
-                "web": "www.birdingjaen.com"
-              }
-            ]
+            ],
+            "imagen":  {
+              "url": "/images/actividades/dinosaurFootprints.jpg",
+              "web":  "https://www.juntadeandalucia.es/medioambiente/portal/areas-tematicas/espacios-protegidos/legislacion-autonomica-nacional/monumentos-naturales/monumento-natural-huellas-dinosaurio"
+            }
           },
           {
             "nombre": "Voluntariado Ambiental",
-            "descripcion": "Limpieza de orillas del embalse del Encinarejo en Sierra de Andújar.",
+            "descripcion": "Participa en actividades de voluntariado enfocadas en la preservación del medio ambiente, como la limpieza de orillas de embalses y otras áreas naturales. En esta actividad, podrás contribuir directamente a la mejora de nuestros ecosistemas, disfrutando de un día al aire libre mientras colaboras en mantener limpios los espacios naturales. Es una oportunidad para poner en práctica tu compromiso con el medio ambiente, rodeado de naturaleza y en contacto con otros voluntarios que comparten tu pasión por cuidar nuestro planeta.",
             "duracion": "4-6 horas",
             "dificultad": "Media",
             "precio": "Gratuito",
@@ -411,7 +427,11 @@
                 "nombre": "AMAPSA",
                 "web": "https://amapsa.wixsite.com/amapsa"
               }
-            ]
+            ],
+            "imagen":  {
+              "url": "/images/actividades/reservoirCleaning.jpg",
+              "web":  "https://www.pexels.com/es-es/foto/serena-vista-al-lago-en-el-bosque-de-los-azufres-30330276/"
+            }
           }
         ]
       }
