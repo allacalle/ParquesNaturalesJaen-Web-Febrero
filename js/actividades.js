@@ -19,11 +19,23 @@ function generarMenuCategorias() {
     boton.addEventListener('click', function(event) {
       // Remover la clase "active" de todos los botones
       document.querySelectorAll('#menu-categorias button').forEach(btn => btn.classList.remove('active'));
+      
       // Agregar la clase "active" al botón clicado
       event.target.classList.add('active');
+      
       // Generar las actividades de la categoría seleccionada
       generarActividades(categoria.nombre);
+
+      // Hacer scroll hacia el contenedor de actividades
+      setTimeout(() => {
+        const contenedor = document.getElementById('contenedor-actividades');
+        contenedor.scrollTo({
+          top: 0, // Desplazar al inicio del contenedor
+          behavior: 'smooth'
+        });
+      }, 100);  // Esto da tiempo a que las actividades se generen antes de hacer el scroll
     });
+
     menuCategorias.appendChild(boton);
   });
 }
@@ -37,7 +49,7 @@ function generarActividades(categoriaSeleccionada) {
   const categoria = actividadesGlobales.find(cat => cat.nombre.toLowerCase() === categoriaSeleccionada.toLowerCase());
   
   if (categoria && categoria.actividades && categoria.actividades.length > 0) {
-    // Por cada actividad de la categoría, se crea una tarjeta
+    // Generar todas las actividades de la categoría
     categoria.actividades.forEach(actividad => {
       const actividadDiv = document.createElement('div');
       actividadDiv.classList.add('actividad-card');
@@ -70,6 +82,17 @@ function generarActividades(categoriaSeleccionada) {
       actividadDiv.innerHTML = contenidoHTML;
       contenedor.appendChild(actividadDiv);
     });
+
+    // Foco en la imagen de la primera actividad
+    setTimeout(() => {
+      const primeraActividad = contenedor.querySelector('.actividad-card img');
+      if (primeraActividad) {
+        primeraActividad.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center'  // Asegura que la imagen quede al principio de la vista
+        });
+      }
+    }, 100);  // Esto da tiempo a que las actividades se generen antes de hacer el scroll
   } else {
     contenedor.innerHTML = '<p>No hay actividades disponibles para esta categoría.</p>';
   }
@@ -104,3 +127,5 @@ function cargarActividades() {
 
 // Ejecuta la carga de actividades cuando el DOM esté listo
 document.addEventListener('DOMContentLoaded', cargarActividades);
+
+ 

@@ -3,32 +3,37 @@
 ========================= */
 .menu-actividades {
   background: var(--color-principal);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más suave */
   display: flex;
   justify-content: center;
-  padding: 1rem;
+  padding: 1.5rem; /* Aumentamos un poco el padding para darle más aire */
   position: sticky;
   top: 0;
   z-index: 1000;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem; /* Mayor espacio debajo */
   flex-wrap: wrap;
+  border-bottom: 2px solid var(--color-acento); /* Agregamos un borde sutil */
 }
 
+/* Los botones siguen el mismo estilo */
 .menu-actividades button {
   background: var(--color-acento);
   border: none;
-  margin: 0.5rem;
-  padding: 1rem 2rem;
-  border-radius: 4px;
-  font-size: 1.1rem;
+  margin: 0.8rem; /* Espacio más relajado entre los botones */
+  padding: 1.2rem 2.4rem; /* Botones un poco más grandes para comodidad */
+  border-radius: 6px; /* Bordes más suaves */
+  font-size: 1.2rem; /* Tamaño de letra un poco más grande */
   cursor: pointer;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
 }
 
+
+/* Hover y estado activo */
 .menu-actividades button:hover,
 .menu-actividades button.active {
   background: var(--color-verde-oscuro);
   color: #fff;
+  transform: scale(1.05); /* Suavizamos el efecto de hover */
 }
 
 /* ======================
@@ -37,7 +42,7 @@
 #contenedor-actividades {
   display: flex;
   flex-direction: column;
-  gap: 40px; /* Mayor espacio entre las tarjetas */
+  gap: 50px; /* Aumentamos el espacio entre tarjetas para más aire */
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -45,26 +50,32 @@
 
 .actividad-card {
   background: #fff;
-  border-radius: var(--border-radius);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; /* Bordes más redondeados para un toque más suave */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra más sutil y difusa */
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
-  width: 95%;  /* Aumentamos para que ocupe más espacio */
-  max-width: 900px; /* Permitimos que las tarjetas puedan expandirse más en pantallas grandes */
+  width: 95%;
+  max-width: 900px;
   margin-bottom: 20px;
+  border: 1px solid #f0f0f0; /* Borde fino para dar estructura */
 }
 
 .actividad-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-8px); /* Hacemos el hover más notorio */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Más sombra al hacer hover */
 }
 
 .actividad-card img {
   width: 100%;
-  height: 220px;
+  height: 250px; /* Aumentamos un poco el tamaño de la imagen */
   object-fit: cover;
+  transition: transform 0.3s ease; /* Animación suave */
+}
+
+.actividad-card:hover img {
+  transform: scale(1.05); /* Le damos un leve zoom a la imagen al hacer hover */
 }
 
 .actividad-info {
@@ -73,23 +84,28 @@
 }
 
 .actividad-info h3 {
-  font-size: 1.8rem;
-  margin: 0 0 1rem;
+  font-size: 1.9rem; /* Hacemos el título un poco más grande */
+  margin: 0 0 1.2rem;
   color: var(--color-secundario);
+  font-weight: 600; /* Hacemos el título más destacado */
+  transition: color 0.3s ease;
 }
 
 .actividad-info p {
   margin: 0.8rem 0;
-  font-size: 1rem;
+  font-size: 1.1rem; /* Un poco más grande para mejorar la legibilidad */
   color: #666;
+  line-height: 1.6; /* Más espacio entre líneas para que se vea más cómodo */
 }
 
 /* Sección de Empresas (Opcional) */
 .actividad-empresas {
-  padding: 1rem 1.5rem 1.5rem;
-  font-size: 0.9rem;
+  padding: 1.2rem 1.5rem 1.5rem;
+  font-size: 1rem;
   color: #555;
   border-top: 1px solid #eee;
+  background: #fafafa; /* Fondo ligeramente gris para diferenciarlas */
+  transition: background 0.3s ease;
 }
 
 .actividad-empresas p {
@@ -116,10 +132,58 @@
   text-decoration: underline;
 }
 
+.actividad-empresas:hover {
+  background: #f0f0f0; /* Cambiamos el fondo al pasar el mouse */
+}
+
 /* Mensaje de carga */
 .loading-message {
   font-size: 1.2rem;
   color: #555;
   text-align: center;
   margin-top: 50px;
+}
+
+
+/* ======================
+   Estilos Responsivos para Pantallas Pequeñas
+========================= */
+@media (max-width: 768px) {
+  .menu-actividades {
+    position: relative; /* Quitamos el sticky para evitar el conflicto */
+    display: grid; /* Usamos grid para los botones */
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); /* Aumentamos el ancho mínimo de las columnas */
+    gap: 1rem; /* Espacio entre los botones */
+    padding: 1rem; /* Reducimos el padding */
+    z-index: 1000; /* Aseguramos que el z-index esté por encima de otros elementos */
+    margin-top: 60px; /* Para dar espacio si el navbar es fijo */
+  }
+
+  .menu-actividades button {
+    padding: 0.8rem 1.6rem; /* Reducimos la altura y ajustamos el ancho */
+    font-size: 1.1rem; /* Ajustamos el tamaño de la fuente */
+    text-align: center; /* Centramos el texto dentro de los botones */
+    margin-bottom: 0.8rem; /* Espacio más relajado entre botones */
+  }
+}
+
+
+/* Estilos de la flechita */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #d43108;
+  color: #fff;
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none; /* Inicialmente oculta */
+  z-index: 9999; /* Que siempre esté sobre otros elementos */
+  transition: opacity 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  background-color: #0056b3; /* Color de fondo al pasar el ratón */
 }

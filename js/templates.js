@@ -55,9 +55,11 @@ function Footer() {
 
       <!-- Contacto -->
       <div class="footer-section">
-        <h4>Contacto</h4>
-        <p>Email: <a href="mailto:info@parquesjaen.com">info@parquesjaen.com</a></p>
-        <p>Teléfono: <a href="tel:+34951123456">+34 951 123 456</a></p>
+        <h4><a href="/pages/contacto.html">Contacto</a></h4>
+        <p>Email: <a href="mailto:webparquesnaturalesjaen@gmail.com">webparquesnaturalesjaen@gmail.com
+</a></p>
+        <p><a href="/pages/contacto.html">Ir a la página de contacto</a></p>
+
       </div>
     </div>
 

@@ -1,35 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulario de Contacto</title>
-  <link rel="stylesheet" href="../css/styles.css">
-  <link rel="stylesheet" href="../css/contacto.css">
-  <script src="../js/templates.js"> </script>
-  <script src="../js/contacto.js"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/contacto.css">
+  <script src="/js/templates.js"></script>
+  <script src="/js/contacto.js"></script>
 </head>
-<header>
-  <h1> Si tienes alguna duda contactanos</h1>
-  <div id="nav-container"> </div>
-  <script> 
-  Menu();
-  </script>
-</header>
 <body>
-  <form id="contactForm">
-    <label for="name">Nombre:</label>
-    <input type="text" id="name" name="name">
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email">
+  <header>
+    <h1>Si tienes alguna duda, ¡contáctanos!</h1>
+    <p>Estamos aquí para ayudarte. Completa el formulario a continuación, y nos pondremos en contacto contigo.</p>
+    <div id="nav-container"></div>
+    <script>
+      Menu();
+    </script>
+  </header>
 
-    <label for="message">Mensaje:</label>
-    <textarea id="message" name="message"></textarea>
+  <main>
+    <section id="contact-form-container">
+      <form action="https://formspree.io/f/mjkgognq" id="contactForm" method="post">
+        <fieldset>
+          <legend>Información de contacto</legend>
 
-    <button type="submit">Enviar</button>
-  </form>
-  <div id="message"></div>
- <script>
-  Footer();
- </script>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" placeholder="Tu nombre completo" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Tu dirección de correo" required>
+
+          <label for="phone">Teléfono (opcional):</label>
+          <input type="tel" id="phone" name="phone" placeholder="Tu número de teléfono">
+
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí" required></textarea>
+
+
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+
+      <div id="message" class="feedback-message"></div>
+    </section>
+  </main>
+
+  <script>
+    const form = document.getElementById('contactForm');
+    form.addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevenir el comportamiento por defecto del formulario
+      
+      const formData = new FormData(form);
+      const actionUrl = form.action;
+      
+      // Usamos Fetch para enviar el formulario a Formspree
+      fetch(actionUrl, {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => {
+        if (response.ok) {
+          // Si la respuesta es correcta, redirigimos a la página de inicio
+          window.location.href = '/'; // Aquí puedes poner la URL de la página de inicio
+        } else {
+          alert("Hubo un error al enviar el formulario.");
+        }
+      })
+      .catch(error => {
+        alert("Error en la conexión. Intenta nuevamente.");
+      });
+    });
+  </script>
+
+  <footer>
+    <script>
+      Footer();
+    </script>
+  </footer>
+
 </body>
 </html>

@@ -204,7 +204,7 @@
           },
           {
             "nombre": "Senderismo",
-            "descripcion": "Rutas por senderos en Sierra de Andújar, Despeñaperros, Los Órganos, Sierra Mágina y Pinar de Cánava.",
+            "descripcion": "Recorre senderos rodeados de naturaleza, donde podrás disfrutar de la belleza del paisaje, la flora y fauna local. Ideal para quienes buscan desconectar y explorar a pie, experimentando la paz y tranquilidad que ofrece el entorno natural",
             "duracion": "1-6 horas",
             "dificultad": "Baja a alta",
             "precio": "Gratuito o consultar",
@@ -247,7 +247,7 @@
         "actividades": [
           {
             "nombre": "Mindfulness",
-            "descripcion": "Sumérgete en una experiencia única de mindfulness rodeado de la serenidad de la naturaleza en Los Órganos y Sierra de Cazorla. A través de sesiones guiadas, podrás conectar contigo mismo y con el entorno natural, practicando técnicas de meditación y respiración en paisajes tranquilos. Esta actividad está diseñada para reducir el estrés y fomentar el bienestar, permitiendo a los participantes encontrar paz y concentración en medio de la naturaleza. Ideal para todos aquellos que buscan relajarse y mejorar su equilibrio mental y emocional.",
+            "descripcion": "Sumérgete en una experiencia única de mindfulness rodeado de la serenidad de la naturaleza. A través de sesiones guiadas, podrás conectar contigo mismo y con el entorno natural, practicando técnicas de meditación y respiración en paisajes tranquilos. Esta actividad está diseñada para reducir el estrés y fomentar el bienestar, permitiendo a los participantes encontrar paz y concentración en medio de la naturaleza. Ideal para todos aquellos que buscan relajarse y mejorar su equilibrio mental y emocional.",
             "duracion": "2-4 horas, adaptada a tus necesidades de relajación y bienestar",
             "dificultad": "Baja (accesible para todos los niveles de experiencia)",
             "precio": "Variable",
@@ -265,7 +265,7 @@
           },
           {
             "nombre": "Yoga en la Naturaleza",
-            "descripcion": "Sesiones de yoga en entornos naturales como la Sierra de Cazorla y Sierra de las Villas, donde podrás conectar cuerpo y mente rodeado de paisajes tranquilos y naturales.",
+            "descripcion": "Sesiones de yoga al aire libre, diseñadas para ayudarte a conectar cuerpo y mente. Practica en un entorno natural, rodeado de tranquilidad y belleza, perfecto para encontrar el equilibrio y la paz interior",
             "duracion": "2-4 horas",
             "dificultad": "Baja",
             "precio": "Variable",
