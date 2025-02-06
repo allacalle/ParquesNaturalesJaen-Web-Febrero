@@ -5,7 +5,7 @@
         "actividades": [
           {
             "nombre": "Escalada en Roca",
-            "descripcion": "Escalada en zonas como la Cerrada del Utrero (Sierra de Cazorla) y Peña Grajera (Sierra Mágina).",
+            "descripcion": "Vive la emoción de la escalada en algunas de las zonas más emblemáticas de la región, como la impresionante Cerrada del Utrero en la Sierra de Cazorla o la desafiante Peña Grajera en la Sierra Mágina. Estas rutas ofrecen una experiencia única para los amantes de la aventura, donde podrás disfrutar tanto de vistas panorámicas como de retos técnicos. Perfecto para quienes buscan un reto físico y mental en plena naturaleza.",
             "duracion": "Medio día/día completo",
             "dificultad": "Media a alta",
             "precio": "Variable",
@@ -27,7 +27,7 @@
           },
           {
             "nombre": "Descenso de Barrancos",
-            "descripcion": "Descenso de barrancos en el Río Guadalentín (Los Órganos) y otras zonas.",
+            "descripcion": "Atrévete a descender los espectaculares barrancos del Río Guadalentín, en la zona de Los Órganos, y otras áreas llenas de emoción. Esta actividad es ideal para aquellos que desean una experiencia llena de adrenalina mientras exploran paisajes rocosos, saltos de agua y estrechos cañones. Con diferentes niveles de dificultad, es una aventura perfecta para disfrutar en grupo o con familia, y conectar con la naturaleza de una manera única.",
             "duracion": "Medio día/día completo",
             "dificultad": "Media a alta",
             "precio": "Variable",
@@ -48,7 +48,7 @@
           },
           {
             "nombre": "Rutas 4x4",
-            "descripcion": "Explora paisajes impresionantes y de difícil acceso en vehículos todoterreno. Recorre el Parque Natural de Despeñaperros, hogar del majestuoso lince ibérico, y los frondosos bosques y montañas de la Sierra de Cazorla, el mayor espacio protegido de España.",
+            "descripcion": "Embárcate en un viaje en vehículos todoterreno para explorar algunos de los paisajes más remotos y asombrosos del Parque Natural de Despeñaperros, conocido por ser hogar del majestuoso lince ibérico, y las verdes montañas y frondosos bosques de la Sierra de Cazorla, el mayor espacio protegido de España. Durante estas rutas, podrás acceder a zonas de difícil acceso, rodeado de una fauna y flora únicas, mientras disfrutas de un recorrido lleno de historia y belleza natural.",
             "duracion": "2-4 horas",
             "dificultad": "Media",
             "precio": "Consultar",
@@ -88,7 +88,7 @@
               }
             ],
             "imagen":  {
-              "url": "/images/actividades/canyoning.jpg",
+              "url": "/images/actividades/canoeing.jpg",
               "web":  "https://www.pexels.com/es-es/foto/tres-hombres-en-kayaks-en-cuerpo-de-agua-1497587/"
           }
           },

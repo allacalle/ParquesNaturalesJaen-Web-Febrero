@@ -1,102 +1,46 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividades en Parques Naturales</title>
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/actividades.css">
-    <script src="/js/templates.js"></script>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividades en Parques Naturales</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/actividades.css">
+  <script src="/js/templates.js" defer></script>
+  <script defer src="/js/actividades.js"></script>
 </head>
 <body>
-    <!-- Hero Section -->
-    <header>
-        <h1>Actividades en Parques Naturales</h1>
-        <p>Disfruta de una variedad de actividades en la naturaleza</p>
-        <a href="/pages/actividades.html" class="btn">Descubre más</a>
-    </header>
+  <!-- Menú de navegación -->
+  <div id="nav-container"></div>
 
-    <!-- Barra de Navegación -->
-    <div id="nav-container"></div>
-    <script>Menu();</script>
+  <!-- Hero Section -->
+  <header>
+    <h1>Actividades en Parques Naturales</h1>
+    <p>Descubre una gran variedad de actividades para disfrutar al aire libre.</p>
+  </header>
 
-    <main>
-        <!-- Menú de Actividades -->
-        <div class="menu-actividades">
-            <button class="active" onclick="mostrarSeccion('aventura')">Aventura </button>
-            <button onclick="mostrarSeccion('naturaleza')">Naturaleza</button>
-            <button onclick="mostrarSeccion('relajacion')">Relajación</button>
-            <button onclick="mostrarSeccion('cultura')">Cultura</button>
-            <button onclick="mostrarSeccion('familiar')">Familiar</button>
+  <!-- Menú de Categorías (inicialmente vacío, se generará desde el JSON) -->
+  <nav class="menu-actividades" id="menu-categorias">
+    <!-- Los botones se crearán dinámicamente aquí -->
+  </nav>
 
-        </div>
+  <main>
+    <!-- Contenedor para las actividades que se generarán dinámicamente -->
+    <section id="contenedor-actividades">
+      <p class="loading-message">Cargando actividades...</p>
+    </section>
+  </main>
 
-        <!-- Secciones de Actividades -->
-        <section id="actividades">
-            <!-- Sección de Senderismo -->
-            <div id="aventura" class="seccion-actividad active">
-                <img src="/images/senderismo.jpg" alt="Seccion de Aventura">
-                <h3>Aventura y deporte extremo</h3>
-                <p>Explora senderos escénicos y disfruta de la belleza natural. Nuestras rutas están diseñadas para todos los niveles, desde principiantes hasta expertos. Duración: 1-6 horas. Dificultad: Baja a alta.</p>
-            </div>
+  <!-- Pie de página -->
+  <div id="footer-container"></div>
 
-            <!-- Sección de Naturaleza -->
-            <div id="naturaleza" class="seccion-actividad">
-                <img src="/images/ciclismo.jpg" alt="Seccion de Naturaleza">
-                <h3>Naturaleza y Observación</h3>
-                <p>Recorre rutas en bicicleta y descubre paisajes impresionantes. Ofrecemos rutas para todos los niveles, desde paseos familiares hasta desafíos para ciclistas experimentados. Duración: Medio día/día completo. Dificultad: Media.</p>
-            </div>
-
-            <!-- Sección de Relajacion -->
-            <div id="relajacion" class="seccion-actividad">
-                <img src="/images/observacion_aves.jpg" alt="Seccion de relajacion">
-                <h3>Relajación y bienesta</h3>
-                <p>Observa una gran variedad de aves en su hábitat natural. Nuestros guías expertos te ayudarán a identificar especies y aprender sobre su comportamiento. Duración: 1-3 horas. Dificultad: Baja.</p>
-            </div>
-
-            <!-- Sección de Cultura -->
-            <div id="cultura" class="seccion-actividad">
-                <img src="/images/picnic.jpg" alt="Picnic">
-                <h3>Cultura y Tradición</h3>
-                <p>Disfruta de un picnic en un entorno natural y relajante. Tenemos áreas designadas con mesas y sombra para que disfrutes de una comida al aire libre. Duración: 1-2 horas. Dificultad: Baja.</p>
-            </div>
-
-            <!-- Sección de Cultura -->
-            <div id="familiar" class="seccion-actividad">
-                <img src="/images/picnic.jpg" alt="Picnic">
-                <h3>Actividades familiares y educativas </h3>
-                <p>Disfruta de un picnic en un entorno natural y relajante. Tenemos áreas designadas con mesas y sombra para que disfrutes de una comida al aire libre. Duración: 1-2 horas. Dificultad: Baja.</p>
-            </div>      
-
-
-
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <div id="footer-container"></div>
-    <script>Footer();</script>
-
-    <!-- Script para cambiar las secciones -->
-    <script>
-        function mostrarSeccion(seccionId) {
-            // Ocultar todas las secciones
-            var secciones = document.querySelectorAll('.seccion-actividad');
-            secciones.forEach(function(seccion) {
-                seccion.classList.remove('active');
-            });
-
-            // Mostrar la sección seleccionada
-            document.getElementById(seccionId).classList.add('active');
-
-            // Actualizar el menú activo
-            var botones = document.querySelectorAll('.menu-actividades button');
-            botones.forEach(function(boton) {
-                boton.classList.remove('active');
-            });
-            event.target.classList.add('active');
-        }
-    </script>
+  <script>
+    // Ejecuta el menú y el footer después de que se haya cargado el DOM
+    document.addEventListener('DOMContentLoaded', () => {
+      Menu();
+      Footer();
+    });
+  </script>
 </body>
 </html>
+
