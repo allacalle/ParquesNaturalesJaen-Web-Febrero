@@ -39,7 +39,7 @@ function Footer() {
       <!-- Sección "Sobre nosotros" -->
       <div class="footer-section">
         <h4>Sobre nosotros</h4>
-        <p>Paraísos Naturales de Jaén es un portal dedicado a promover los parques naturales de nuestra provincia, ayudando a todos a disfrutar de la naturaleza.</p>
+        <p>Parques Naturales de Jaén es un portal dedicado a promover los parques naturales de nuestra provincia, ayudando a todos a disfrutar de la naturaleza.</p>
       </div>
 
       <!-- Enlaces útiles -->
@@ -73,7 +73,7 @@ function Footer() {
 
     <!-- Derechos reservados -->
     <div class="footer-bottom">
-      <p>&copy; 2025 Paraísos Naturales de Jaén. Todos los derechos reservados. Alfonso Lacalle García.</p>
+      <p>&copy; 2025 Parques Naturales de Jaén. Todos los derechos reservados. Alfonso Lacalle García.</p>
     </div>
   `;
   document.body.appendChild(footer);

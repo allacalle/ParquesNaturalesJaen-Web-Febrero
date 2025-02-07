@@ -11,12 +11,12 @@
             "precio": "Variable",
             "empresas": [
               {
-                "nombre": "Tierraventura Cazorla",
-                "web": "www.tierraventura.com"
+                "nombre": "Aventura Cazorla",
+                "web": "https://www.aventuracazorla.com/"
               },
               {
                 "nombre": "Mágina Aventura",
-                "web": "www.maginaaventura.com"
+                "web": "https://maginaventura.com/"
               }
             ],
             "imagen":  {
@@ -34,11 +34,11 @@
             "empresas": [
               {
                 "nombre": "Aventura Sport Xauen",
-                "web": "www.aventurasportxauen.com"
+                "web": "https://cazorlaseguraylasvillas.es/aventura-sport-xauen/"
               },
               {
                 "nombre": "Tierraventura Cazorla",
-                "web": "www.tierraventura.com"
+                "web": "https://www.andalucia.org/es/turismo-y-deporte-tierraventura-cazorla"
               }
             ],
             "imagen":  {
@@ -60,11 +60,8 @@
               {
                 "nombre": "Bujarkay",
                 "web": "https://www.bujarkay.com/"
-              },
-              {
-                "nombre": "Aventura Rural",
-                "web": "www.aventurarural.com"
               }
+      
             ],
             "imagen":  {
                 "url": "/images/actividades/4x4Routes.jpg",
@@ -80,11 +77,11 @@
             "empresas": [
               {
                 "nombre": "Tierraventura Cazorla",
-                "web": "www.tierraventura.com"
+                "web": "https://www.andalucia.org/es/turismo-y-deporte-tierraventura-cazorla"
               },
               {
-                "nombre": "EcoGuadalquivir",
-                "web": "www.ecoguadalquivir.com"
+                "nombre": "aktivjaen",
+                "web": "https://aktivjaen.es/"
               }
             ],
             "imagen":  {
@@ -101,7 +98,7 @@
             "empresas": [
               {
                 "nombre": "Mágina Aventura",
-                "web": "www.maginaaventura.com"
+                "web": "https://maginaventura.com/"
               }
             ],
             "imagen":  {
@@ -118,12 +115,9 @@
             "empresas": [
               {
                 "nombre": "Aventura Sport Xauen",
-                "web": "www.aventurasportxauen.com"
-              },
-              {
-                "nombre": "Mágina Bikes",
-                "web": "www.maginabikes.com"
+                "web": "https://cazorlaseguraylasvillas.es/aventura-sport-xauen/"
               }
+              
             ],
             "imagen":  {
               "url": "/images/actividades/mountainBiking.jpg",
@@ -138,12 +132,8 @@
             "precio": "Variable, consultar con las empresas",
             "empresas": [
               {
-                "nombre": "Hípica Cazorla",
-                "web": "www.hipicacazorla.com"
-              },
-              {
-                "nombre": "Aventura Jaén",
-                "web": "www.aventurajaen.com"
+                "nombre": "CostaSur",
+                "web": "https://cazorla.costasur.com/es/hipica-cazorla.html"
               }
             ],
             "imagen":  {
@@ -195,6 +185,18 @@
               {
                 "nombre": "Birding Jaén",
                 "web": "www.birdingjaen.com"
+              },
+              {
+                "nombre": "Iberian Lynx Land SL",
+                "web": "https://iberianlynxland.com/"
+              },
+              {
+                "nombre": "Birding Trekking and Nature",
+                "web": "https://www.turismodeobservacion.com/empresa/birding-trekking-and-nature/21/"
+              },
+              {
+                "nombre": "Spainbirds Nature Tours SL",
+                "web": "https://www.spainbirds.com/"
               }
             ],
             "imagen":  {
@@ -229,12 +231,7 @@
             "duracion": "Variable, adaptada a tus necesidades y el tiempo disponible para capturar la belleza del entorno",
             "dificultad": "Baja (actividad accesible para todos los niveles de experiencia fotográfica)",
             "precio": "Gratuito",
-            "empresas": [
-              {
-                "nombre": "",
-                "web": ""
-              }
-            ],
+            
             "imagen":  {
               "url": "/images/actividades/naturePhotography.jpg",
               "web":  "https://www.pexels.com/es-es/foto/30295930/"
@@ -290,12 +287,7 @@
             "duracion": "1-2 horas",
             "dificultad": "Baja",
             "precio": "Gratuito",
-            "empresas": [
-              {
-                "nombre": "No requiere empresa",
-                "web": ""
-              }
-            ],
+            
             "imagen":  {
               "url": "/images/actividades/picnic.jpg",
               "web":  "https://www.pexels.com/es-es/foto/grupo-de-personas-sentadas-sobre-una-alfombra-blanca-en-el-campo-de-hierba-745045/"
@@ -348,8 +340,8 @@
             "precio": "Consultar",
             "empresas": [
               {
-                "nombre": "Sabores de Mágina",
-                "web": "www.saboresdemagina.com"
+                "nombre": "Degusta Jaén",
+                "web": "https://www.degustajaen.com/"
               }
             ],
             "imagen":  {

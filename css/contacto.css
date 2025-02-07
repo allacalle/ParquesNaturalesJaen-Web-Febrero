@@ -39,17 +39,33 @@ label {
 /* Campos de texto */
 input[type="text"],
 input[type="email"],
-input[type="tel"],
+input[type="tel"] {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  border: 2px solid #4CAF50;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+  /* Sin modificar la altura aquí */
+}
+
+/* Solo para el textarea del mensaje */
 textarea {
   width: 100%;
   padding: 15px;
   font-size: 1.1rem;
   margin-bottom: 20px;
-  border: 2px solid #4CAF50; /* Bordes verdes para los campos */
+  border: 2px solid #4CAF50;
   border-radius: 4px;
   box-sizing: border-box;
   transition: border-color 0.3s ease;
+  height: 200px; /* Ajusta la altura solo en el textarea */
+  resize: vertical; /* Permite que el usuario cambie el tamaño verticalmente */
 }
+
+
 
 input[type="text"]:focus,
 input[type="email"]:focus,
